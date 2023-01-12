@@ -59,3 +59,17 @@ body{
 .search svg:hover{
     opacity: 0.6;
 }
+.body{
+    width: 98%;
+    margin: 20px auto auto;
+    min-height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.body__container{
+    margin: 80px 0px 40px;
+    font-size: 45px;
+    font-weight: 800;
+}

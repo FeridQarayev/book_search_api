@@ -26,7 +26,18 @@ function Home() {
           </div>
         </div>
       </div>
-      
+      <div className={styles.body}>
+        <div className={styles.body__container}>
+          <div>
+            Nothing
+            <br />
+            To
+            <br />
+            Show!?
+            <br />
+          </div>
+        </div>
+      </div>
     </Fragment>
   );
 }
