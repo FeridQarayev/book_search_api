@@ -2,3 +2,60 @@ body{
     font-family: "Roboto Serif",sans-serif;
     margin: 0;
 }
+.navbar{
+    background-image: url("../../images/headerbg.jpg");
+    background-color: rgb(204, 204, 204);
+    height: 350px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.container{
+    width: 40%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+.title{
+    margin: 0px 0px 20px;
+    display: block;
+    color: white;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    position: relative;
+}
+.search input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: Bitter, serif;
+    box-shadow: rgb(255 255 255 / 85%) 0px 6px 12px -2px, rgb(255 255 255 / 90%) 0px 3px 7px -3px;
+    transition: all 0.4s ease 0s;
+}
+.search input:hover{
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+}
+.search input:focus{
+    box-shadow: rgb(0 0 0 / 49%) 0px 10px 20px, rgb(0 0 0 / 53%) 0px 6px 6px;
+    outline: none;
+}
+.search svg{
+    position: absolute;
+    font-size: 20px;
+    top: 14px;
+    right: 8px;
+    transition: all 0.2s ease 0s;
+}
+.search svg:hover{
+    opacity: 0.6;
+}
